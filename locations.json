@@ -23,22 +23,22 @@
 	},
 	"kx": {
 		"emoji": "crown",
-		"text": "Working at Kings Cross",
+		"text": "Working at Kings Cros (CSM)",
 		"alias": ["csm"]
 	},
 	"ec": {
 		"emoji": "elephant",
-		"text": "Working at Elephant & Castle",
+		"text": "Working at Elephant & Castle (LCC)",
 		"alias": ["lcc"]
 	},
 	"mhr": {
 		"emoji": "tennis",
-		"text": "Working at Merton Hall Road",
+		"text": "Working at Merton Hall Road (Wimbledon)",
 		"alias": ["wim", "wimbledon", "mh"]
 	},
 	"mb": {
 		"emoji": "cherry_blossom",
-		"text": "Working at Chelsea",
+		"text": "Working at Millbank (Chelsea)",
 		"alias": ["che", "chelsea"]
 	}
 }
