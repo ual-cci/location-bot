@@ -6,7 +6,6 @@ This simple app will quickly update your status to show which site you are at wi
 Simply type `/location` and then your building code, for example "pr" for Peckham Road and "hh" for High Holborn.
 
 The app also supports common mistyped names like "lcc" for Elephant & Castle and "wimbledon" for Merton Hall Road.
-You’ve added Location to this workspace.
 
 ## Adding a new location
 Simply edit `locations.json` adding a new location with this format:
