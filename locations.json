@@ -1,0 +1,44 @@
+{
+	"wfh": {
+		"emoji": "working-from-home",
+		"text": "Working from home",
+		"alias": ["home"]
+	},
+	"pr": {
+		"emoji": "peckham",
+		"text": "Working at Peckham Road"
+	},
+	"gb": {
+		"emoji": "greencoat",
+		"text": "Working at Greencoat"
+	},
+	"ew": {
+		"emoji": "eagle",
+		"text": "Working at Eagle Wharf"
+	},
+	"hh": {
+		"emoji": "holborn",
+		"text": "Working at High Holborn",
+		"alias": ["holborn"]
+	},
+	"kx": {
+		"emoji": "crown",
+		"text": "Working at Kings Cross",
+		"alias": ["csm"]
+	},
+	"ec": {
+		"emoji": "elephant",
+		"text": "Working at Elephant & Castle",
+		"alias": ["lcc"]
+	},
+	"mhr": {
+		"emoji": "tennis",
+		"text": "Working at Merton Hall Road",
+		"alias": ["wim", "wimbledon", "mh"]
+	},
+	"mb": {
+		"emoji": "cherry_blossom",
+		"text": "Working at Chelsea",
+		"alias": ["che", "chelsea"]
+	}
+}
