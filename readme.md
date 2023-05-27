@@ -1,11 +1,13 @@
 <img src="https://github.com/ual-cci/location-bot/raw/main/_assets/location.png" height="150px" />
 
 # Location Bot
-This simple app will quickly update your status to show which site you are at without having to change it manually in your profile.
+Location Bot will quickly update your status to show which site you are at without having to change it manually in your profile.
 
-Simply type `/location` and then your building code, for example "pr" for Peckham Road and "hh" for High Holborn.
+- `/location _[building]_` – This sets the building location using a simple code, like "pr" for Peckham Road, or "hh" for High Holborn.
+- `/location list` – This lists all locations and their codes and aliases.
+- `/location clear` – This clears your current status.
 
-The app also supports common mistyped names like "lcc" for Elephant & Castle and "wimbledon" for Merton Hall Road.
+If you want to add a new location please submit a pull request on GitHub.
 
 ## Adding a new location
 Simply edit `locations.json` adding a new location with this format:
