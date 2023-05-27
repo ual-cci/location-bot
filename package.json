@@ -1,7 +1,8 @@
 {
   "dependencies": {
     "@slack/bolt": "^3.13.1",
-    "dotenv-safe": "^8.2.0"
+    "dotenv-safe": "^8.2.0",
+    "moment": "^2.29.4"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
