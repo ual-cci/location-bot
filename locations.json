@@ -6,7 +6,8 @@
 	},
 	"pr": {
 		"emoji": "peckham",
-		"text": "Working at Peckham Road"
+		"text": "Working at Peckham Road",
+		"alias": ["cam", "camberwell"]
 	},
 	"gb": {
 		"emoji": "greencoat",
