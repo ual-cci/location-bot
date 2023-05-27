@@ -22,6 +22,10 @@
 		"text": "Working at High Holborn",
 		"alias": ["holborn"]
 	},
+	"wr": {
+		"emoji": "wilson",
+		"text": "Working at Wilson Road"
+	},
 	"kx": {
 		"emoji": "crown",
 		"text": "Working at Kings Cros (CSM)",
