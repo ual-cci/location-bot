@@ -25,11 +25,71 @@ const app = new App({
 				return clearStatus(command, respond);
 			case 'list':
 				return listStatuses(command, respond);
+			case '':
+			case undefined:
+			case null:
+				return helpText(command,respond);
 			default:
 				return setStatus(command, respond);
 		}
 	});	
 })();
+
+async function helpText(command,respond) {
+	let response = {
+		"blocks": [
+			{
+				"type": "header",
+				"text": {
+					"type": "plain_text",
+					"text": "CCI Location Bot"
+				}
+			},
+			{
+				text: "Location Bot will quickly update your status to show which site you are at without having to change it manually in your profile."
+			},
+			{
+				text: "Available commands:"
+			},
+			{
+				type: "section",
+				text: {
+					type: "mrkdwn",
+					text: "- `/location _[building]_` – This sets the building location using a simple code, like `pr` for Peckham Road, or `hh` for High Holborn."
+				}
+			},
+			{
+				type: "section",
+				text: {
+					type: "mrkdwn",
+					text: "- `/location list` – This lists all locations and their codes and aliases."
+				}
+			},
+			{
+				type: "section",
+				text: {
+					type: "mrkdwn",
+					text: "- `/location clear` – This clears your current status."
+				}
+			},
+			{
+				type: "section",
+				text: {
+					type: "mrkdwn",
+					text: "- `/location` - No input will show a short help text."
+				}
+			},
+			{
+				type: "section",
+				text: {
+					type: "mrkdwn",
+					text: "If you want to add a new location, or to file any bugfixes, please submit [a pull request on GitHub](https://github.com/ual-cci/location-bot/pulls)."
+				}
+			},
+		]
+	};
+	await respond(response);
+}
 
 async function clearStatus(command, respond) {
 	try {
