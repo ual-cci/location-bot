@@ -1,8 +1,13 @@
 {
   "dependencies": {
     "@slack/bolt": "^3.13.1",
+    "body-parser": "^1.20.2",
     "dotenv-safe": "^8.2.0",
-    "moment": "^2.29.4"
+    "express": "^4.18.2",
+    "express-bearer-token": "^2.4.0",
+    "express-body": "^1.0.6",
+    "moment": "^2.29.4",
+    "remove": "^0.1.5"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
