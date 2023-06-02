@@ -26,6 +26,8 @@ const app = new App({
 			case 'list':
 				return listStatuses(command, respond);
 			case '':
+			case undefined:
+			case null:
 				return helpText(command,respond);
 			default:
 				return setStatus(command, respond);
