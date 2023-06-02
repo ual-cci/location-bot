@@ -54,7 +54,7 @@ app.post('/api', (req, res) => {
 				}
 			});
 			res.json({
-				status: `You are status has been cleared.`
+				status: `Your status has been cleared.`
 			});
 		}
 		catch (error) {
@@ -101,7 +101,7 @@ async function clearStatus(command, respond) {
 				status_emoji: ''
 			}
 		});
-		await respond({text:`:soap: You are status has been cleared.`});
+		await respond({text:`:soap: Your status has been cleared.`});
 	}
 	catch (error) {
 		console.log(error);
